@@ -1,1 +1,18 @@
+<req>
+<Telegram_nickname>yuvynokurov</Telegram_nickname>
+<Bug_id>119</Bug_id>
+<Title>Can't stretch widget to full screen width orientation</Title>
+<Severity>Major</Severity>
+<Priority>Medium</Priority>
+<Environment>1)Redmi note 7 Android 10 MIUA Global 12.5.3.0</Environment>
 
+<Precondition>1) Install the AndroidGridTest application
+2)Set the size of the grid 4x6, 5x6</Precondition>
+
+<STR>1) Add the widget
+2) Stretch the widget to the full width of the screen</STR>
+            
+<AR>Top and bottom margins are left blank, widget size is wrong</AR>
+            
+<ER>The widget takes up the entire height of the screen</ER>
+</req>
